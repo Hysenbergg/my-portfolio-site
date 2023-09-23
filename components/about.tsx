@@ -30,7 +30,7 @@ export default function About() {
         <span className="font-medium">React</span> and improved my skills in
         this area. In the software development process,{" "}
         <span className="italic">
-          what I enjoy the most is being able to create solutions to people's
+          what I enjoy the most is being able to create solutions to people&apos;s
           problems
         </span>
         . Although I am mainly interested in{" "}
