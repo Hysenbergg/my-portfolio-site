@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Burdur, TR",
     description: "I graduated from university as a Computer Engineer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2023",
+    date: "09.2019 - 06.2023",
   },
   {
     title: "Software Intern",
@@ -47,7 +47,7 @@ export const experiencesData = [
     description:
       "I did an internship at AFAD, Turkey's disaster management and international aid organization. I developed the AYDES project, which is being developed with Kotlin, with React Native, and developed an entry-level case imaging application.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "07.2022 - 08.2022",
   },
   {
     title: "Mobile & Front-End Developer",
@@ -55,7 +55,15 @@ export const experiencesData = [
     description:
       "I am currently a freelance mobile app and front-end developer. I have knowledge in React, React Native, Next.js, TypeScript and Tailwind technologies. I am open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "06.2023 - present",
+  },
+  {
+    title: "techcareer.net Full-Stack Bootcamp",
+    location: "Balıkesir, TR - Online",
+    description:
+      "I attended this training to develop web projects alongside mobile programming. Within the scope of the training, I am learning React.js technology in the front-end part and .Net technology in the back-end part.",
+    icon: React.createElement(FaReact),
+    date: "06.2023 - present",
   },
 ] as const;
 
@@ -90,7 +98,6 @@ export const skillsData = [
   "React Native",
   "React",
   "Next.js",
-  "Kotlin",
   "Flutter",
   "Tailwind",
   "TypeScript",
