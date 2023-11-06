@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import certificationProject2 from '@/public/certification_project2.png';
 import lazaImagesss from '@/public/thirdlaza.png';
 import mydictionary from '@/public/mydictionary.png';
+import gkarchitecture from '@/public/gkarchitecture.png';
 
 export const links = [
   {
@@ -88,6 +89,13 @@ export const projectsData = [
       "It is a personal dictionary app where users can add, delete and exercise with words to memorize English vocabulary.",
     tags: ["React Native", "Realm DB", "React Navigation"],
     imageUrl: mydictionary,
+  },
+  {
+    title: "GKArchitecture",
+    description:
+      "It was developed for an architecture office and uses the 14th edition of Next.Js technology. Free mail service like Resend is provided.",
+    tags: ["Next.Js", "Vercel", "Framer Motion", "Resend"],
+    imageUrl: gkarchitecture,
   },
 ] as const;
 
