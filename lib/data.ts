@@ -2,10 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import certificationProject2 from '@/public/certification_project2.png';
-import lazaImagesss from '@/public/thirdlaza.png';
-import mydictionary from '@/public/mydictionary.png';
-import gkarchitecture from '@/public/gkarchitecture.png';
+import certificationProject2 from "@/public/certification_project2.png";
+import lazaImagesss from "@/public/thirdlaza.png";
+import mydictionary from "@/public/mydictionary.png";
+import gkarchitecture from "@/public/gkarchitecture.png";
+import posapp from "@/public/POSApp_ss.png";
 
 export const links = [
   {
@@ -73,7 +74,13 @@ export const projectsData = [
     title: "Certification Project",
     description:
       "The voluntary project has developed a mobile application to be used on tablets by audit teams in certification processes.",
-    tags: ["React Native", "Realm DB", "Context", "AsyncStorage", "React Navigation"],
+    tags: [
+      "React Native",
+      "Realm DB",
+      "Context",
+      "AsyncStorage",
+      "React Navigation",
+    ],
     imageUrl: certificationProject2,
   },
   {
@@ -97,19 +104,27 @@ export const projectsData = [
     tags: ["Next.Js", "Vercel", "Framer Motion", "Resend"],
     imageUrl: gkarchitecture,
   },
+  {
+    title: "POS Application",
+    description:
+      "In general, it is made with POS Application logic. MERN structure is used. Invoice can be issued. Ant Design is used.",
+    tags: ["React", "Node.js", "Mongo DB", "Ant Design", "Redux Toolkit"],
+    imageUrl: posapp,
+  },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "React Native",
   "React",
+  "React Native",
   "Next.js",
-  "Flutter",
-  "Tailwind",
+  "Tailwind CSS",
   "TypeScript",
   "Git",
-  "Redux",
+  "Redux Toolkit",
+  "Node.js",
+  "Mongo DB",
   "Realm DB",
 ] as const;
